@@ -11,7 +11,12 @@
         android:theme="@style/Theme.AuthSem16">
         <activity
             android:name=".LoginActivity"
-            android:exported="true" />
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" >
+        </activity>
         <activity
             android:name=".ProfileActivity"
             android:exported="true">
